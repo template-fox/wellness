@@ -4,13 +4,6 @@ I am full stack developer who enjoys converting designs from picture to web page
 
 - [Find me](https://sumanshresth.com.np)
 
-### Features
-
-- [x] Subscription form
-- [x] Responsive
-- [x] Menu in small screensize
-- [x] Embedd messenger 
-
 ### Technologies used
 
 * Tailwindcss
