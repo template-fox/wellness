@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Home Page</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+		crossorigin="anonymous" />
+</head>
+
+<body class="text-gray-700 font-normal bg-gradient-to-b from-green-200 to-white relative">
+	
+	<div class="max-w-6xl mx-auto">
+		<header x-data="{ open: false }" class="flex w-full block justify-between py-12">
+			<div class="font-bold text-3xl px-4">
+				<a href="/">
+					<span class="text-primary font-bold">Pay</span><span
+						class="text-secondary font-bold ml-0 pl-0">zone</span>
+				</a>
+			</div>
+			<div class="absolute text-white text-center block w-full px-4" @click.away="open=false" x-show="open">
+				<div class="bg-secondary rounded-lg">
+					<ul >
+						<li class="px-4 py-2 hover:bg-primary border-b border-orange-600"><a href="#">Home</a></li>
+						<li class="px-4 py-2 hover:bg-primary border-b border-orange-600"><a href="#">Category</a></li>
+						<li class="px-4 py-2 hover:bg-primary border-b border-orange-600"><a href="#">Service</a></li>
+						<li class="px-4 py-2 hover:bg-primary border-b border-orange-600"><a href="#">Testimonial</a></li>
+						<li class="px-4 py-2 hover:bg-primary"><a href="#">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="flex-grow flex justify-end items-center">
+				<div class="px-4 flex-grow max-w-md hidden md:flex">
+					<ul class="flex flex-wrap justify-around w-full" >
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Category</a></li>
+						<li><a href="#">Service</a></li>
+						<li><a href="#">Testimonial</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+				<div class="flex items-center px-4"><button class="bg-primary text-gray-100 rounded-full px-8 py-2 text-sm">Sign Up</button>
+					<div class="md:hidden">
+						<button @click="open = true" class="bg-secondary px-4 py-2 rounded text-white ml-2"><i class="fas fa-bars"></i></button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="main-background-image bg-right bg-no-repeat px-4 bg-blue-400 md:bg-transparent text-white md:text-gray-800 md:py-16">
+				<p class="font-bold text-3xl leading-normal pt-4">Complete <span class="text-primary">Paymen</span><span
+						class="pr-6 py-2 rounded-lg lg:bg-green-100"><span class="text-primary">t</span><span
+							class="text-secondary pl-2">Solutions</span></span></p>
+				<p class="font-bold text-3xl leading-normal">For Your Business</p>
+				<p class="max-w-sm mt-6 text-gray-100 md:text-gray-700 bg-gray-800 md:bg-transparent p-2">
+					Receive payments and send funds easily with PayZone. Choose an esay way to manage all your payment
+					processes
+				</p>
+				<div class="py-4">
+					<button class="bg-primary hover:bg-green-900 hover:text-white text-white px-8 py-3 rounded-full">Get Started</button>
+					<button class="text-secondary hover:bg-secondary hover:text-white hover:border-white border-2 rounded-full px-6 py-3 border-primary ml-4"><i
+							class="fas fa-play-circle fa-lg"></i> <span class="pl-1">Watch Demo</span></button>
+				</div>
+			</div>
+			<div class="flex flex-wrap items-center py-8 mt-8 border-b md:border-none">
+				<div class="w-full lg:max-w-sm px-4">
+					<p class="w-full text-5xl mb-4 text-center lg:text-left">400K+</p>
+					<p class="text-gray-500 text-lg md:text-3xl text-center lg:text-left">Companies that partner <br />with us</p>
+				</div>
+				<div class="flex-grow w-full lg:w-auto">
+					<ul class="flex w-full justify-around">
+						<li class="text-center"><img class="w-16 h-16 inline p-2" src="./images/tokopedia.png" alt="">Tokopedia</li>
+						<li class="text-center"><img class="w-16 h-16 inline p-2" src="./images/online-card.png" alt="">OpenScart</li>
+						<li class="text-center"><img class="w-16 h-16 inline p-2" src="./images/best-buy.png" alt="">BookShop</li>
+						<li class="text-center"><img class="w-16 h-16 inline p-2" src="./images/apple-garden.png" alt=""> RedBeard</li>
+					</ul>
+				</div>
+			</div>
+			<div class="text-center w-full flex py-8 px-4 flex-col border-b md:border-none">
+				<p class="text-secondary text-xl tracking-wide mb-4 font-bold">Features</p>
+				<p class="text-3xl mb-4">Fast and easy to payments</p>
+				<p class="text-gray-500 mb-6">With some of the features we've got we've taken care of <br/> your comfort</p>
+			</div>
+			<div class="flex flex-wrap justify-around lg:py-8  border-b md:border-none">
+				<div class="max-w-sm pt-4 md:pt-0">
+					<div class="w-16 h-16 bg-blue-700 mx-auto mb-4 text-white rounded-full flex items-center justify-center"><i class="fas fa-dollar-sign fa-lg"></i></div>
+					<h4 class="text-xl font-bold text-center">Online Payment</h4>
+					<p class="px-8 py-4 text-gray-500 max-w-xs mx-auto text-center">WIth 24 hour online payment methods to choose from, your customers can pay easily</p>
+				</div>
+				<div class="max-w-sm pt-4 md:pt-0">
+					<div class="w-16 h-16 bg-yellow-400 mx-auto mb-4 text-white rounded-full flex items-center justify-center"><i class="fas fa-search-dollar fa-lg"></i></div>
+					<h4 class="text-xl font-bold text-center">Extensive Payment</h4>
+					<p class="px-8 py-4 text-gray-500 max-w-xs mx-auto text-center">You can send your payment transaction easily to our bank partment network</p>
+				</div>
+				<div class="max-w-sm pt-4 md:pt-0">
+					<div class="w-16 h-16 bg-secondary mx-auto mb-4 text-white rounded-full flex items-center justify-center"><i class="fas fa-lock fa-lg"></i></div>
+					<h4 class="text-xl font-bold text-center">Maintained security</h4>
+					<p class="px-8 py-4 text-gray-500 max-w-xs mx-auto text-center">Don't worry. You will get protection when you make transaction using PayZone.</p>
+				</div>
+			</div>
+			<div class="flex flex-col justify-between pt-8 py-4" x-data="{open:false}">
+				<div class="fixed top-0 max-w-6xl w-full h-full flex items-center justify-center" x-cloak x-show="open">
+					<div @click.away="open=false" class="flex max-w-4xl border-4 border-primary bg-gray-100 mx-auto h-96 flex-wrap h-full">
+						<div class="bg-white w-1/2 md:flex items-center justify-center hidden "><img class="max-w-xs" src="./images/subscribe.png" alt=""></div>
+						<div class="bg-gray-100 w-full md:w-1/2 p-8 h-full flex flex-col">
+							<h3 class="text-4xl font-bold mb-6">Your best  <br class="hidden md:block"/>financial buddy</h3>
+							<p class="text-gray-500">Subscribe for our beta to see how this cool feature power up your financial life, earlier than the rest of the world.</p>
+							<div class="flex-grow flex items-center">
+									<input type="text" class="p-2 border-b"> 
+								<button class="bg-secondary px-6 py-2 text-white">Subscribe</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<h4 class="text-center text-secondary mb-4">Subscribe to Us</h4>
+				<p class="w-full text-center mb-6 text-xl">If you want to find out more <br/>information</p>
+				<div class="bg-primary w-full lg:rounded-lg text-white px-4 lg:px-16 py-8 flex flex-wrap items-center justify-between">
+					<p class="text-lg lg:text-2xl mb-4 sm:mb-0">Please subscribe to get the latest information from us</p>
+					<button @click="open=true" class="bg-white text-primary px-6 py-2 rounded-lg hover:bg-secondary hover:text-white">Subscribe</button>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="w-full text-center mb-4">
+				<a href="mailto:summonshr@gmail.com">summonshr@gmail.com</a>
+			</div>
+		</footer>
+	</div>
+<div id="fb-root" class="social-messenger-root"></div>
+<div class="fb-customerchat social-messenger" page_id="101425098794955" theme_color="#4080FF" greeting_dialog_display="show"></div>
+			<!--facebook like and share js -->
+			<div id="fb-root"></div>
+			<script>
+				(function(d, s, id) {
+					var js, fjs = d.getElementsByTagName(s)[0];
+					if (d.getElementById(id)) return;
+					js = d.createElement(s);
+					js.id = id;
+					js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+					fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));
+			</script>
+	<script type="module" src="/main.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
+		integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ=="
+		crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.3.0/alpine-ie11.min.js" integrity="sha512-Atu8sttM7mNNMon28+GHxLdz4Xo2APm1WVHwiLW9gW4bmHpHc/E2IbXrj98SmefTmbqbUTOztKl5PDPiu0LD/A==" crossorigin="anonymous"></script>
+</body>
+
+</html>
