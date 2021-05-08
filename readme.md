@@ -1,5 +1,7 @@
 ## About Template Fox
 
+![Alt text](/screenshot.png?raw=true "Screenshot")
+
 I am full stack developer who enjoys converting designs from picture to web page.
 
 - [Find me](https://sumanshresth.com.np)
