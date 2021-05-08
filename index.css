@@ -2,8 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
-.main-background-image {
-    background-image: url("./images/main.png");
-}
-
 [x-cloak] { display: none; }
