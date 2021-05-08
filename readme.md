@@ -9,6 +9,7 @@ I am full stack developer who enjoys converting designs from picture to web page
 * Tailwindcss
 * Alpinejs
 * Messenger
+* Google Icons
 
 ### Tested at
 
