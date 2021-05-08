@@ -1,6 +1,6 @@
 ## About Template Fox
 
-We find designs from all over the web and produce it in web format. The task is highly enjoyable and we try to embedd with latest technologies.
+I am full stack developer who enjoys converting designs from picture to web page.
 
 - [Find me](https://sumanshresth.com.np)
 
