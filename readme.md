@@ -2,7 +2,6 @@
 
 We find designs from all over the web and produce it in web format. The task is highly enjoyable and we try to embedd with latest technologies.
 
-- [Demo](https://payzone.surge.sh)
 - [Find me](https://sumanshresth.com.np)
 
 ### Features
