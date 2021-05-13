@@ -8,11 +8,12 @@ module.exports = {
     extend: {
       colors: {
         background: colors.blueGray[50],
-        theme: colors.blueGray[800],
-        focused: colors.blueGray[600],
+        theme: colors.blueGray[900],
+        focused: colors.blueGray[800],
         light: colors.blueGray[500],
         lighter: colors.blueGray[200],
         lightest: colors.blueGray[100],
+        secondary: colors.orange
       }
     },
   },

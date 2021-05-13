@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-    font-family: 'Inter', Courier, monospace;
+    font-family: 'Inter', 'Lato', 'Open Sans', monospace;
 }
 
 [x-cloak] { display: none; }
@@ -46,11 +46,11 @@ input {
 
 
 button.theme {
-    @apply bg-theme text-lightest p-2 rounded-full px-4 hover:bg-lighter hover:border hover:border-theme hover:text-theme;
+    @apply bg-theme text-white rounded-full hover:bg-lighter hover:text-theme px-8 p-2;
 }
 
 p {
-    @apply text-light leading-normal;
+    @apply text-gray-700 font-bold leading-normal;
 }
 
 section {
@@ -82,3 +82,15 @@ section > div{
     @apply text-lighter;
 }
 
+.menu ul {
+    @apply flex max-w-lg  flex-wrap justify-around
+}
+
+
+.menu ul li{
+    @apply px-4
+}
+
+.bg-image {
+    background-image: url(/images/bg-image.png);
+}
