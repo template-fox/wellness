@@ -7,12 +7,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: colors.blueGray[50],
-        theme: colors.blueGray[900],
-        focused: colors.blueGray[800],
-        light: colors.blueGray[500],
-        lighter: colors.blueGray[200],
-        lightest: colors.blueGray[100],
+        background: colors.gray[50],
+        theme: colors.green[900],
+        focused: colors.gray[800],
+        light: colors.gray[500],
+        lighter: colors.gray[200],
+        lightest: colors.gray[100],
         secondary: colors.orange
       }
     },

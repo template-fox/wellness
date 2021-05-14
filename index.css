@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-    font-family: 'Inter', 'Lato', 'Open Sans', monospace;
+    /* font-family: 'Inter', 'Lato', 'Open Sans', monospace; */
 }
 
 [x-cloak] { display: none; }
@@ -58,7 +58,7 @@ section {
 }
 
 section > div{
-    @apply max-w-6xl mx-auto px-8;
+    @apply max-w-6xl mx-auto px-4 md:px-8;
 }
 
 .thumb {
@@ -93,4 +93,5 @@ section > div{
 
 .bg-image {
     background-image: url(/images/bg-image.png);
+    @apply bg-no-repeat;
 }
