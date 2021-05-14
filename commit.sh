@@ -2,4 +2,4 @@ yarn build
 git add .
 git commit -m "Added Updates"
 git push origin --all
-git push easycamper easycamper
+git push wellness wellness
